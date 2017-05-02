@@ -1,0 +1,80 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body{
+	width: 100%;
+}
+
+video{
+	position: absolute;
+	width: 100%;
+	z-index: -1;
+
+}
+
+#navbar{
+	height: 80px;
+	padding: 25px 25px 0 25px;
+}
+
+#logo{
+	background-image: url(../img/white.png);
+	background-repeat: no-repeat;
+	left: 0;
+	top: 0px;
+	padding: 50% 50%;
+	background-position: 2% 51%;
+	background-size: 4%;
+}
+
+#menu-list{
+	text-align: right;
+	position: relative;
+	right: 14%;
+}
+
+#menu-list > li{
+	display: inline-block;
+	margin left: 25px;
+	margin-right: 25px;
+}
+
+.login{
+	margin-left: 30px;
+	border: 1px solid white;
+	border-radius: 20%;
+	padding: 10px 15px;
+}
+
+.menu-item{
+	text-decoration: none;
+}
+
+.menu-item:link, .menu-item:visited{
+	color: white;
+}
+
+#form-container{
+	width: 480px;
+	background-color: white;
+	padding: 50px 55px 50px 65px;
+	position: relative;
+	left: 60%;
+}
+
+.title-form{
+	color: #352384;
+}
+
+.form-h5{
+	padding: 5px 0 20px 0;
+}
+
+#phone{
+	border: none;
+	border-bottom: 1px solid #352384;
+	width: 50%;
+}
