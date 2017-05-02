@@ -190,3 +190,8 @@ iframe{
 	width: 15px;
 	display: none;
 }
+
+#media-media2{
+	position: absolute;
+	bottom: -52%;
+}
