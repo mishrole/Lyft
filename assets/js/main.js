@@ -75,3 +75,6 @@ window.onload = function(){
 	telefono.onkeypress = numeros;
 
 }
+
+
+// END
