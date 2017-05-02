@@ -12,7 +12,12 @@ video{
 	position: absolute;
 	width: 100%;
 	z-index: -1;
+	bottom: -10px;
 
+}
+
+header{
+	display: block;
 }
 
 #navbar{
@@ -26,7 +31,7 @@ video{
 	left: 0;
 	top: 0px;
 	padding: 50% 50%;
-	background-position: 2% 51%;
+	background-position: 2% 52%;
 	background-size: 4%;
 }
 
@@ -45,7 +50,7 @@ video{
 .login{
 	margin-left: 30px;
 	border: 1px solid white;
-	border-radius: 20%;
+	border-radius: 10px;
 	padding: 10px 15px;
 }
 
@@ -63,6 +68,8 @@ video{
 	padding: 50px 55px 50px 65px;
 	position: relative;
 	left: 60%;
+	top: 20px;
+	margin-bottom: 20px;
 }
 
 .title-form{
@@ -70,11 +77,116 @@ video{
 }
 
 .form-h5{
-	padding: 5px 0 20px 0;
+	padding: 5px 0 25px 0;
 }
 
-#phone{
+.input-form{
 	border: none;
 	border-bottom: 1px solid #352384;
-	width: 50%;
+	width: 80%;
+	display: block;
+	margin-bottom: 25px;
+	height: 25px;
+}
+
+.hidden{
+	display: none;
+}
+
+#become-form{
+	border: none;
+	background-color: #FF00BF; 
+	color: white;
+	padding: 15px 20px;
+	border-radius: 10px;
+}
+
+#sign-form{
+	margin-left: 20px;
+}
+
+#sign-form:link, #sign-form:visited{
+	color: #728099;
+}
+
+.text1{
+	padding-top: 25px;
+}
+.text2{
+	padding-top: 10px;
+}
+
+.bottom-text{
+	color: #728099;
+	font-size: 12.5px;
+}
+
+#info_1{
+	background: linear-gradient(#660e83, #2B1E66);
+	padding: 100px 20px 20px 100px;
+	height: 620px;
+}
+
+#info-container{
+	position: relative;
+	width: 100%;
+	bottom: -79px;
+	color: white;
+}
+
+.h2-info_1{
+	padding: 30px 0;
+}
+
+.p-info_1{
+	padding-bottom: 50px;
+}
+
+#text3{
+	display: block;
+}
+
+#text{
+	width: 36%;
+}
+
+#image-info_1{
+	background-image: url(../img/phone.png);
+	background-repeat: no-repeat;
+	left: 0;
+	top: 0px;
+	padding: 50% 50%;
+	background-position: 85% 15%;
+	background-size: 40%;
+}
+
+#media1{
+	color: black;
+	padding: 50px 60px;
+}
+
+#text-media1{
+	width: 25%;
+}
+
+#media-media1{
+	position: absolute;
+	left: 39.92%;
+	bottom: -14.2%;
+}
+
+#p1{
+	padding-bottom: 5px;
+}
+
+#p2{
+	padding-top: 20px;
+}
+
+#text-media1>h1{
+	font-size: 30px;
+}
+
+iframe{
+	border: none;
 }
