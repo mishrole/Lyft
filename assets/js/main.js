@@ -39,9 +39,43 @@ window.onload = function(){
 
 	var nombre = document.getElementById("name");
 	var email = document.getElementById("email");
-	var ciudad = document.getElementById("ciudad");
+	var ciudad = document.getElementById("city");
 
-	nombre.onkeypress = alert("asdas")
+	var letras = function(e){
+		var codigo = e.keyCode;
+		if((codigo>=97 && codigo<=122) || (codigo>=65 && codigo<=90) || codigo==39 || codigo==32){
+			this.nextElementSibling.innerText = "";
+			this.nextElementSibling.style.display = "none"
+			return true;
+		}else{
+			this.nextElementSibling.innerText = "Este campo sólo permite letras"
+			this.nextElementSibling.style.display = "inline-block"
+			return false;
+		}
+	}
 
+	nombre.onkeypress = letras;
+	ciudad.onkeypress = letras;
+
+	var numeros = function(e){
+		var codigo = e.keyCode;
+		var length = this.value.length;
+
+		if(length == 1){
+			this.nextElementSibling.focus();
+		}
+
+		if(codigo >= 48 && codigo <= 57 && length <= 8){
+			this.nextElementSibling.innerText = ""
+			this.nextElementSibling.style.display = "none"
+			return true;
+		}else{
+			this.nextElementSibling.innerText = "Ingrese un número válido"
+			this.nextElementSibling.style.display = "inline-block"
+			return false;
+		}
+	}
+
+	telefono.onkeypress = numeros;
 
 }
