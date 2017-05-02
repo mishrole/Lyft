@@ -63,9 +63,9 @@ header{
 }
 
 #form-container{
-	width: 480px;
+	width: 474px;
 	background-color: white;
-	padding: 50px 55px 50px 65px;
+	padding: 50px 0px 50px 66px;
 	position: relative;
 	left: 60%;
 	top: 20px;
@@ -130,7 +130,7 @@ header{
 #info-container{
 	position: relative;
 	width: 100%;
-	bottom: -79px;
+	bottom: -8px;
 	color: white;
 }
 
@@ -171,8 +171,8 @@ header{
 
 #media-media1{
 	position: absolute;
-	left: 39.92%;
-	bottom: -14.2%;
+	left: 33.3%;
+	bottom: -12.6%;
 }
 
 #p1{

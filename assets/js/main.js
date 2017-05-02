@@ -35,7 +35,13 @@ window.onload = function(){
 			hidden[i].style.display = "block";
 		}
 
-	})
+	});
 
-	
+	var nombre = document.getElementById("name");
+	var email = document.getElementById("email");
+	var ciudad = document.getElementById("ciudad");
+
+	nombre.onkeypress = alert("asdas")
+
+
 }
