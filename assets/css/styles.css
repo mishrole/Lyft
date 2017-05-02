@@ -186,6 +186,7 @@ iframe{
 	border: none;
 }
 
-.error{
-	position: absolute;
+.error-image{
+	width: 15px;
+	display: none;
 }

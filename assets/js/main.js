@@ -44,11 +44,9 @@ window.onload = function(){
 	var letras = function(e){
 		var codigo = e.keyCode;
 		if((codigo>=97 && codigo<=122) || (codigo>=65 && codigo<=90) || codigo==39 || codigo==32){
-			this.nextElementSibling.innerText = "";
 			this.nextElementSibling.style.display = "none"
 			return true;
 		}else{
-			this.nextElementSibling.innerText = "X";
 			this.nextElementSibling.style.display = "inline-block"
 			return false;
 		}
@@ -66,11 +64,9 @@ window.onload = function(){
 		}
 
 		if(codigo >= 48 && codigo <= 57 && length <= 8){
-			this.nextElementSibling.innerText = ""
 			this.nextElementSibling.style.display = "none"
 			return true;
 		}else{
-			this.nextElementSibling.innerText = "X"
 			this.nextElementSibling.style.display = "inline-block"
 			return false;
 		}
