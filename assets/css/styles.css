@@ -16,10 +16,6 @@ video{
 
 }
 
-header{
-	display: block;
-}
-
 #navbar{
 	height: 80px;
 	padding: 25px 25px 0 25px;
@@ -84,7 +80,6 @@ header{
 	border: none;
 	border-bottom: 1px solid #352384;
 	width: 80%;
-	display: block;
 	margin-bottom: 25px;
 	height: 25px;
 }
@@ -192,4 +187,5 @@ iframe{
 }
 
 .error{
+	position: absolute;
 }

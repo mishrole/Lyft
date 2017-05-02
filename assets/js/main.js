@@ -32,7 +32,7 @@ window.onload = function(){
 		var hidden = document.getElementsByClassName("hidden");
 
 		for(var i = 0; i < hidden.length; i++){
-			hidden[i].style.display = "block";
+			hidden[i].style.display = "inline-block";
 		}
 
 	});
@@ -48,7 +48,7 @@ window.onload = function(){
 			this.nextElementSibling.style.display = "none"
 			return true;
 		}else{
-			this.nextElementSibling.innerText = "Este campo sólo permite letras"
+			this.nextElementSibling.innerText = "X";
 			this.nextElementSibling.style.display = "inline-block"
 			return false;
 		}
@@ -70,7 +70,7 @@ window.onload = function(){
 			this.nextElementSibling.style.display = "none"
 			return true;
 		}else{
-			this.nextElementSibling.innerText = "Ingrese un número válido"
+			this.nextElementSibling.innerText = "X"
 			this.nextElementSibling.style.display = "inline-block"
 			return false;
 		}
